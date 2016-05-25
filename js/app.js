@@ -1,26 +1,26 @@
 
   /*1.  Fill in the correct id to target the paragraph tag*/
   function fontSize(){
-    document.getElementById().style.fontSize = "200%";
+    document.getElementById("box1").style.fontSize = "200%";
   }
 
  /* 2. change the font color to red*/
   function colorMeBadd(){
-    document.getElementById().style.color = something; 
+    document.getElementById("box2").style.color = "red"; 
   }
 
 /*3. fill in the spaces to make this function operate:*/
   function showAnswer(){
-    document.getElementById().something = " C (da sea get it?) arrrr!";
+    document.getElementById("answer").innerHTML = " C (da sea get it?) arrrr!";
   }
 
   /*4.  Create a button that will display the message "My name is Lee, Brrruuuce Lee!" in a new paragraph element after the button is clicked.*/
-function something(){
-  document.getElementById(something).something = "My name is Lee, B<span>rrr</span>uuuce Lee!";
+function kungfu(){
+  document.getElementById("beWater").innerHTML = "My name is Lee, B<span>rrr</span>uuuce Lee!";
 }
  
 //Event Listeners
-//Please write your code inside the window.onload function for exerices 5 onward...
+//5. Please write your code inside the window.onload function for exerices 5 onward...
 
 window.onload = function (){
 
